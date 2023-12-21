@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto Slab, "Helvetica Neue";
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 425px;
+}
+
+.pokeimg {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 15%;
+}
+
+.datapoke {
+  position: absolute;
+  font-weight: 600;
+  color: #aaa;
+  top: 55%;
+  right: 27%;
+  font-size: clamp(8px, 5vw, 25px);
+}
+.pokename {
+  color: #706c6c;
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  width: 65%;
+  top: 65%;
+  left: 13.5%;
+}
+
+.search {
+  width: 100%;
+  pzdding: 4%;
+  outline: none;
+  border: 2px solid #bfbdbd;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: clamp(8px, 5vw, 1rem);
+}
+
+.buttons{
+  position: absolute;
+  bottom: 12%;
+  left: 15%;
+  width: 65%;
+  transform(-57%, 0);
+  display: flex;
+  gap: 25px;
+}
+
+button{
+  width: 50%;
+  padding: 4%;
+  cursor: pointer;
+  color: #bcc8cf;
+  background: #40525c;
+}
+
+button:hover{
+  background: #33424a;
+}
